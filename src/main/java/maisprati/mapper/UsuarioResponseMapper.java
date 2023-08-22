@@ -1,5 +1,7 @@
-package maisprati;
+package maisprati.mapper;
 
+import maisprati.domain.Usuario;
+import maisprati.domain.UsuarioResponse;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.NullValuePropertyMappingStrategy;

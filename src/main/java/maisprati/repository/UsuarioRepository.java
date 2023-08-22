@@ -1,6 +1,7 @@
-package maisprati;
+package maisprati.repository;
 
 import jakarta.enterprise.context.ApplicationScoped;
+import maisprati.domain.Usuario;
 
 import java.util.ArrayList;
 import java.util.List;

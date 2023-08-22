@@ -1,4 +1,4 @@
-package maisprati;
+package maisprati.mapper;
 
 public class ConverterMaiorIdade {
 

@@ -1,4 +1,4 @@
-package maisprati;
+package maisprati.domain;
 
 import lombok.Getter;
 import lombok.Setter;

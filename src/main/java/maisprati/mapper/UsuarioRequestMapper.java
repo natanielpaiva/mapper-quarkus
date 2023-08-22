@@ -1,6 +1,8 @@
-package maisprati;
+package maisprati.mapper;
 
 
+import maisprati.domain.Usuario;
+import maisprati.domain.UsuarioRequest;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.NullValuePropertyMappingStrategy;
@@ -14,7 +16,6 @@ public interface UsuarioRequestMapper {
 
     @Mapping(source = "name", target = "nome")
     @Mapping(source = "lastName", target = "sobreNome")
-
     Usuario usuarioRequestToUsuario(UsuarioRequest usuarioRequest);
 
 }
